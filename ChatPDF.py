@@ -10,6 +10,8 @@ def PDFapp():
     st.title('Summarizer')
     st.subheader("Simplifying information, maximizing understanding - AI powered summarization")
 
+    st.markdown("[Demo PDF file](https://github.com/dotAadarsh/FormatsAI/blob/main/assets/Blockchain.pdf)")
+
     AI21_API_KEY = st.secrets["AI21_API_KEY"]
 
     def get_answer(context, question):

@@ -10,6 +10,8 @@ def CSVapp():
 
     st.header("ChatCSV")
     st.caption("Transform the way you analyze data with our AI-powered chatbot")
+    st.markdown("[Demo CSV file](https://github.com/dotAadarsh/FormatsAI/blob/main/assets/AwardsCoaches.csv)")
+    
     AI21_API_KEY = st.secrets["AI21_API_KEY"]
 
     uploaded_file = st.file_uploader('Upload a csv file', type='csv', accept_multiple_files=False)

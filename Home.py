@@ -1,6 +1,6 @@
 import streamlit as st
 from ChatPDF import PDFapp
-from CSV import CSVapp
+from ChatCSV import CSVapp
 from ChatYT import YTapp
 
 st.set_page_config(

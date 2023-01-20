@@ -1,0 +1,10 @@
+ai21==0.0.3
+deepgram-sdk==2.2.0
+docx2txt==0.8
+fpdf==1.7.2
+itranslate==0.1.2
+mdtable==0.2
+pdfplumber==0.7.6
+streamlit==1.17.0
+streamlit-chat==0.0.2.1
+youtube-dl==2021.12.17

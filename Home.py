@@ -9,8 +9,8 @@ st.set_page_config(
     layout="centered",
     initial_sidebar_state="expanded",
     menu_items={
-        'Get Help': "",
-        'Report a bug': "",
+        'Get Help': "https://github.com/dotAadarsh/AI21",
+        'Report a bug': "https://github.com/dotAadarsh/AI21",
         'About': "Chat Intelligence for your data"
     }
 )

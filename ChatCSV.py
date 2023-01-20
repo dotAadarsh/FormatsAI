@@ -5,7 +5,6 @@ import pandas as pd
 from mdtable import MDTable
 from io import StringIO
 from pathlib import Path
-from PDF import PDFapp
 
 def CSVapp():
 

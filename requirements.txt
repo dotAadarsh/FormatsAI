@@ -8,3 +8,5 @@ pdfplumber==0.7.6
 streamlit==1.17.0
 streamlit-chat==0.0.2.1
 youtube-dl==2021.12.17
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability

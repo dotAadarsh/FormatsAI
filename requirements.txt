@@ -5,6 +5,13 @@ fpdf==1.7.2
 itranslate==0.1.2
 mdtable==0.2
 pdfplumber==0.7.6
-streamlit==1.17.0
+streamlit==1.27.0
 streamlit-chat==0.0.2.1
 youtube-dl==2021.12.17
+aiohttp>=3.9.0 # not directly required, pinned by Snyk to avoid a vulnerability
+httpx>=0.23.0 # not directly required, pinned by Snyk to avoid a vulnerability
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
+pyarrow>=14.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.3.3 # not directly required, pinned by Snyk to avoid a vulnerability
+validators>=0.21.0 # not directly required, pinned by Snyk to avoid a vulnerability
